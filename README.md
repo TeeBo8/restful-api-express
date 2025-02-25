@@ -125,7 +125,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à
 Ce projet est sous licence ISC - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 📧 Contact
+Leture Thibault - [t.leture@gmail.com](mailto:t.leture@gmail.com)
 
-Votre Nom - [votre-email@example.com](mailto:votre-email@example.com)
-
-Lien du projet: [https://github.com/votre-username/restful-api-express](https://github.com/votre-username/restful-api-express)
+Lien du projet: [https://github.com/votre-username/restful-api-express](https://github.com/TeeBo8/restful-api-express)
