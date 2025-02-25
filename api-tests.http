@@ -1,0 +1,47 @@
+### Test de l'API RESTful
+
+### 1. Créer un utilisateur
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "email": "alice@mail.com"
+}
+
+### 2. Lister tous les utilisateurs
+GET http://localhost:3000/users
+
+### 3. Récupérer un utilisateur par ID (remplacez 1 par l'ID réel)
+GET http://localhost:3000/users/1
+
+### 4. Créer un article
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+  "title": "Mon premier article",
+  "content": "Contenu de mon premier article",
+  "user_id": 1
+}
+
+### 5. Lister tous les articles
+GET http://localhost:3000/articles
+
+### 6. Lister les articles d'un utilisateur spécifique
+GET http://localhost:3000/users/1/articles
+
+### 7. Mettre à jour un article
+PUT http://localhost:3000/articles/1
+Content-Type: application/json
+
+{
+  "title": "Titre mis à jour",
+  "content": "Contenu mis à jour"
+}
+
+### 8. Supprimer un article
+DELETE http://localhost:3000/articles/1
+
+### 9. Supprimer un utilisateur
+DELETE http://localhost:3000/users/1
